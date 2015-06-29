@@ -115,7 +115,7 @@ public class GekkoControllersScript : MonoBehaviour
 		//rigidbody2D.gravityScale = jumpForce*Time.deltaTime;
 		//rigidbody2D.AddForce(Vector2.up *jumpForce, ForceMode2D.Impulse);				
 
-	void Jumping()
+	void Jumping() //This needs to be fixed
 	{
 		jumpPress = Input.GetButtonDown("Jump");
 		jumpHeld = Input.GetButton("Jump");
